@@ -1,0 +1,44 @@
+.fondo{
+    background-color:antiquewhite;
+}
+
+.miTexto{
+    font-size: 80px;
+    color: green;
+}
+
+.headd{
+    border: 2px solid black;
+    width: 50vw;
+    margin: auto;
+}
+
+.card{
+    width: fit-content;
+    border: 2px solid black;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    /*ap: 2em;*/
+    align-items: center;
+}
+
+.card:hover{
+    background-color: aliceblue;
+}
+
+.cardContainer{
+    background-color: aliceblue;
+    width: 65vw;
+    margin: auto;
+    margin-top: 1,5em;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgStyle{
+    width: 200px;
+}
